@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -16,21 +14,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Task (1 hour):
+Create a React.js application that displays completed statemind’s audits.
 
-## Learn More
+You can get required data with the next url: https://statemind.io/projects.json.
 
-To learn more about Next.js, take a look at the following resources:
+The app should include three pages:
+- a clients list (/)
+- a client's project list (/[client])
+- markdown feedback form with live preview (/[client]/project).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can use any libraries, including next.js or other frameworks.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Provide a visually appealing design with a notification for successful feedback submission (do not perform any network requests, just simulate it). Assessment will consider functionality, code quality, React skills, design, and user interface clarity.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The developer has a set timeframe to complete the task, with a requirement to submit the source code and provide explanations.
